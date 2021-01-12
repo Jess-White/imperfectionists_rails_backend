@@ -10,15 +10,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_01_06_194600) do
+ActiveRecord::Schema.define(version: 2021_01_12_213355) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "blog_posts", force: :cascade do |t|
     t.string "title"
-    t.text "text"
-    t.string "author"
+    t.text "blurb"
+    t.string "artist"
     t.string "image_url"
     t.integer "wordcount"
     t.boolean "finished"
@@ -27,6 +27,7 @@ ActiveRecord::Schema.define(version: 2021_01_06_194600) do
     t.integer "like"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "genre"
   end
 
 end
