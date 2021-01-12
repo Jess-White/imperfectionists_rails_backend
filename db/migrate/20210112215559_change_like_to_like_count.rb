@@ -1,5 +1,5 @@
 class ChangeLikeToLikeCount < ActiveRecord::Migration[6.0]
   def change
-    rename_column :blog_posts, :like, :like_count
+    remove_column :blog_posts, :reviewed, :boolean
   end
 end

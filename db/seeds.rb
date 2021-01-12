@@ -33,6 +33,7 @@ BlogPost.create!([
         favorite: ,
         like_count: ,
         genre: ,
+        year: 
         
     },
     {
@@ -46,6 +47,7 @@ BlogPost.create!([
         favorite: ,
         like_count: ,
         genre: ,
+        year: 
         
     },
     {
@@ -59,6 +61,7 @@ BlogPost.create!([
         favorite: ,
         like_count: ,
         genre: ,
+        year: 
         
     },
     {
@@ -72,6 +75,7 @@ BlogPost.create!([
         favorite: ,
         like_count: ,
         genre: ,
+        year: 
         
     },
     {
@@ -85,6 +89,7 @@ BlogPost.create!([
         favorite: ,
         like_count: ,
         genre: ,
+        year: 
         
     },
     {
@@ -98,6 +103,7 @@ BlogPost.create!([
         favorite: ,
         like_count: ,
         genre: ,
+        year: 
         
     },
     {
@@ -111,6 +117,7 @@ BlogPost.create!([
         favorite: ,
         like_count: ,
         genre: ,
+        year: 
         
     },
     {
@@ -124,6 +131,7 @@ BlogPost.create!([
         favorite: ,
         like_count: ,
         genre: ,
+        year: 
         
     },
     {
@@ -137,6 +145,7 @@ BlogPost.create!([
         favorite: ,
         like_count: ,
         genre: ,
+        year: 
         
     },
     {
@@ -150,6 +159,7 @@ BlogPost.create!([
         favorite: ,
         like_count: ,
         genre: ,
+        year: 
         
     },
     {
@@ -163,6 +173,7 @@ BlogPost.create!([
         favorite: ,
         like_count: ,
         genre: ,
+        year: 
         
     },
     {
@@ -176,6 +187,7 @@ BlogPost.create!([
         favorite: ,
         like_count: ,
         genre: ,
+        year: 
         
     },
     {
@@ -189,6 +201,7 @@ BlogPost.create!([
         favorite: ,
         like_count: ,
         genre: ,
+        year: 
         
     },
     {
@@ -202,6 +215,7 @@ BlogPost.create!([
         favorite: ,
         like_count: ,
         genre: ,
+        year: 
         
     },
     {
@@ -215,6 +229,7 @@ BlogPost.create!([
         favorite: ,
         like_count: ,
         genre: ,
+        year: 
         
     },
     {
@@ -228,6 +243,7 @@ BlogPost.create!([
         favorite: ,
         like_count: ,
         genre: ,
+        year: 
         
     },
     {
@@ -241,6 +257,7 @@ BlogPost.create!([
         favorite: ,
         like_count: ,
         genre: ,
+        year: 
         
     },
     {
@@ -254,6 +271,7 @@ BlogPost.create!([
         favorite: ,
         like_count: ,
         genre: ,
+        year: 
         
     },
     {
@@ -267,6 +285,7 @@ BlogPost.create!([
         favorite: ,
         like_count: ,
         genre: ,
+        year: 
         
     },
     {
@@ -280,6 +299,7 @@ BlogPost.create!([
         favorite: ,
         like_count: ,
         genre: ,
+        year: 
         
     },
     {
@@ -293,6 +313,7 @@ BlogPost.create!([
         favorite: ,
         like_count: ,
         genre: ,
+        year: 
         
     },
     {
@@ -306,6 +327,7 @@ BlogPost.create!([
         favorite: ,
         like_count: ,
         genre: ,
+        year: 
         
     },
     {
@@ -319,6 +341,7 @@ BlogPost.create!([
         favorite: ,
         like_count: ,
         genre: ,
+        year: 
         
     },
     {
@@ -332,6 +355,7 @@ BlogPost.create!([
         favorite: ,
         like_count: ,
         genre: ,
+        year: 
         
     },
     {
@@ -345,6 +369,7 @@ BlogPost.create!([
         favorite: ,
         like_count: ,
         genre: ,
+        year: 
         
     },
     {
@@ -358,6 +383,7 @@ BlogPost.create!([
         favorite: ,
         like_count: ,
         genre: ,
+        year: 
         
     },
     {
@@ -371,6 +397,7 @@ BlogPost.create!([
         favorite: ,
         like_count: ,
         genre: ,
+        year: 
         
     },
     {
@@ -384,6 +411,7 @@ BlogPost.create!([
         favorite: ,
         like_count: ,
         genre: ,
+        year: 
         
     },
     {
@@ -397,6 +425,7 @@ BlogPost.create!([
         favorite: ,
         like_count: ,
         genre: ,
+        year: 
         
     },
     {
@@ -410,6 +439,7 @@ BlogPost.create!([
         favorite: ,
         like_count: ,
         genre: ,
+        year: 
         
     },
     {
@@ -423,6 +453,7 @@ BlogPost.create!([
         favorite: ,
         like_count: ,
         genre: ,
+        year: 
         
     },
     {
@@ -436,6 +467,7 @@ BlogPost.create!([
         favorite: ,
         like_count: ,
         genre: ,
+        year: 
         
     },
     {
@@ -449,6 +481,7 @@ BlogPost.create!([
         favorite: ,
         like_count: ,
         genre: ,
+        year: 
         
     },
     {
@@ -462,6 +495,7 @@ BlogPost.create!([
         favorite: ,
         like_count: ,
         genre: ,
+        year: 
         
     },
     {
@@ -475,6 +509,7 @@ BlogPost.create!([
         favorite: ,
         like_count: ,
         genre: ,
+        year: 
         
     },
 
