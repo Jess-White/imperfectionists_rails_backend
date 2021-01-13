@@ -1,9 +1,11 @@
 Rails.application.routes.draw do
-  get "/grants" => "grants#index"
-  post "/grants" => "grants#create"
-  get "/grants/:id" => "grants#show"
-  patch "/grants/:id" => "grants#update"
-  delete "/grants/:id" => "grants#destroy"
+  namespace :api do
+    get "/blog_posts" => "blog_posts#index"
+    post "/blog_posts" => "blog_posts#create"
+    get "/blog_posts/:id" => "blog_posts#show"
+    patch "/blog_posts/:id" => "blog_posts#update"
+    delete "/blog_posts/:id" => "blog_posts#destroy"
 
-  post "/grants/:id/copy" => "grants#copy"
+    post "/blog_posts/:id/copy" => "blog_posts#copy"
+  end
 end

@@ -1,12 +1,9 @@
 {
   id: blog_post.id,
   title: blog_post.title,
-  text: blog_post.text,
-  author: blog_post.author,
+  blurb: blog_post.blurb,
+  artist: blog_post.artist,
   image_url: blog_post.image_url,
   wordcount: blog_post.wordcount,
-  finished: blog_post.finished,
-  reviewed: blog_post.reviewed,
-  favorite: blog_post.favorite,
-  like: blog_post.like
+  like_count: blog_post.like_count
 }

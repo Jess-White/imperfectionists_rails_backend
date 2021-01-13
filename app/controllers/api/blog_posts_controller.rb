@@ -11,14 +11,11 @@ class Api::BlogPostsController < ApplicationController
     def create
         @blog_post = BlogPost.new(
         title: params[:title],
-        text: params[:text],
-        author: params[:author],
+        blurb: params[:blurb],
+        artist: params[:artist],
         image_url: params[:image_url],
         wordcount: params[:wordcount],
-        finished: params[:finished],
-        reviewed: params[:reviewed],
-        favorite: params[:favorite],
-        like: params[:like]
+        like_count: params[:like_count]
         )
         if @blog_post.save
         render "show.json.jb"
@@ -33,14 +30,11 @@ class Api::BlogPostsController < ApplicationController
         @blog_post_to_copy = BlogPost.find(params[:id])
         @blog_post = BlogPost.new(
         title: params[:title],
-        text: @blog_post_to_copy.text,
-        author: @blog_post_to_copy.author,
+        blurb: @blog_post_to_copy.blurb,
+        artist: @blog_post_to_copy.artist,
         image_url: @blog_post_to_copy.image_url,
         wordcount: params[:wordcount],
-        finished: params[:finished],
-        reviewed: params[:reviewed],
-        favorite: params[:favorite],
-        like: params[:like]
+        like_count: params[:like_count]
         )
         if @blog_post.save
         render "show.json.jb"
@@ -60,26 +54,13 @@ class Api::BlogPostsController < ApplicationController
     
     def update
         @blog_post = BlogPost.find(params[:id])
-        
-        title: params[:title],
-        text: params[:text],
-        author: params[:author],
-        image_url: params[:image_url],
-        wordcount: params[:wordcount],
-        finished: params[:finished],
-        reviewed: params[:reviewed],
-        favorite: params[:favorite],
-        like: params[:like]
 
         @blog_post.title = params[:title] || @blog_post.title
-        @blog_post.text = params[:text] || @blog_post.text
-        @blog_post.author = params[:author] || @blog_post.author
+        @blog_post.blurb = params[:blurb] || @blog_post.blurb
+        @blog_post.artist = params[:artist] || @blog_post.author
         @blog_post.image_url = params[:image_url] || @blog_post.image_url
         @blog_post.wordcount = params[:wordcount] || @blog_post.wordcount
-        @blog_post.finished = params[:finished] || @blog_post.finished
-        @blog_post.reviewed = params[:reviewed] || @blog_post.reviewed
-        @blog_post.favorite = params[:favorite] || @blog_post.favorite
-        @blog_post.like = params[:like] || @blog_post.like
+        @blog_post.like_count = params[:like_count] || @blog_post.like_count
     
         if @blog_post.save
         render "show.json.jb"
