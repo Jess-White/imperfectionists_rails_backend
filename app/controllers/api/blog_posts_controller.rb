@@ -14,8 +14,8 @@ class Api::BlogPostsController < ApplicationController
         blurb: params[:blurb],
         artist: params[:artist],
         image_url: params[:image_url],
-        wordcount: params[:wordcount],
-        like_count: params[:like_count]
+        wordcount: blurb.split(" ").length,
+        like_count: 0
         )
         if @blog_post.save
         render "show.json.jb"
