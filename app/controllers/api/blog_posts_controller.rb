@@ -23,25 +23,7 @@ class Api::BlogPostsController < ApplicationController
         render json: { errors: @blog_post.errors.messages }, status: :unprocessable_entity
         end
     end
-    
-    #copy method for blog_post
-    
-    def copy
-        @blog_post_to_copy = BlogPost.find(params[:id])
-        @blog_post = BlogPost.new(
-        title: params[:title],
-        blurb: @blog_post_to_copy.blurb,
-        artist: @blog_post_to_copy.artist,
-        image_url: @blog_post_to_copy.image_url,
-        wordcount: params[:wordcount],
-        like_count: params[:like_count]
-        )
-        if @blog_post.save
-        render "show.json.jb"
-        else
-        render json: { errors: @blog_post.errors.messages }, status: :unprocessable_entity
-        end
-    end 
+
     
     def show
         @blog_post = BlogPost.find(params[:id])
