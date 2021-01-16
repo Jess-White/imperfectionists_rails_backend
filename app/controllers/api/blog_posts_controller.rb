@@ -14,7 +14,11 @@ class Api::BlogPostsController < ApplicationController
         blurb: params[:blurb],
         artist: params[:artist],
         image_url: params[:image_url],
-        wordcount: blurb.split(" ").length,
+        genre: "Landscape",
+        year: 1909,
+        # genre: params[:genre],
+        # year: params[:year],
+        wordcount: params[:blurb].split(" ").length,
         like_count: 0
         )
         if @blog_post.save
