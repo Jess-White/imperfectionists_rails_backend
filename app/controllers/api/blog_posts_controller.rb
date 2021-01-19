@@ -31,10 +31,6 @@ class Api::BlogPostsController < ApplicationController
     
     def show
         @blog_post = BlogPost.find(params[:id])
-        # render json: @blog_post, include: [:sections, :reports]
-        # # render 'show.json.jb'
-        # #this is the format for adding in report sections once I get them built out:
-        # # render json: @blog_post, include: [:sections, :reports{include: :report_sections}]
         render "show.json.jb"
     end
     
